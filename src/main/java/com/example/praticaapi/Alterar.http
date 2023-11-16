@@ -1,0 +1,8 @@
+PUT http://localhost:8080/api/funcionario/atualizar/2
+Content-Type: application/json
+
+{
+  "cargo": "Analista",
+  "salario": 2000,
+  "departamento": "TI"
+}

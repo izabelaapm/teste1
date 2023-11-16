@@ -1,0 +1,11 @@
+POST http://localhost:8080/api/funcionario/inserir
+Content-Type: application/json
+
+{
+  "id": 11,
+  "nome": "Iza",
+  "cargo": "Auxiliar de TI",
+  "dataAdmissao": "2023-05-10",
+  "salario": 600,
+  "departamento": "TI"
+}
